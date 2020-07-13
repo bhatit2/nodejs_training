@@ -5,9 +5,12 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "task11": "nodemon src/task1/task11.js"
+    "task11": "nodemon src/task1/task11.js",
+    "task12": "nodemon src/task1/task12.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "csvtojson": "2.0.10"
+  },
   "devDependencies": {
     "nodemon": "1.18.4"
   },
